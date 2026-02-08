@@ -32,6 +32,12 @@
       padding: 40px;
       animation: fadeIn 0.5s ease-in;
     }
+    .header{
+      display: flex;
+      gap: 2px;
+      flex-direction: column;
+      align-items: center;
+    }
 
     @keyframes fadeIn {
       from {
@@ -135,7 +141,10 @@
 </head>
 <body>
   <div class="container">
-    <h1>Unified Meeting Dashboard</h1>
+    <div class="header">
+      <img src="/xeobit.png" alt="Logo" width="100px">
+      <h1>Xeobit Unified Meeting Dashboard</h1>
+    </div>
     
     <p>
       This application uses Google Authentication to access a user's Gmail
